@@ -1,0 +1,90 @@
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background1.png');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Стили для контейнера формы аутентификации */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный фон */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для формы аутентификации */
+form {
+    text-align: left;
+}
+
+/* Стили для группы элементов формы */
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+/* Стили для заголовка формы */
+h2 {
+    margin-top: 0;
+    text-align: center; /* Выравниваем заголовок по центру */
+}
+
+/* Стили для меток полей ввода */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* Стили для полей ввода и чекбокса */
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Стили для полей ввода и чекбокса при фокусе */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="checkbox"]:focus {
+    border-color: #007bff;
+}
+
+/* Стили для кнопки отправки */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%; /* Растягиваем кнопку на всю ширину контейнера */
+}
+
+/* Стили для кнопки отправки при наведении */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для чекбокса "Запомнить меня" */
+input[type="checkbox"]#remember {
+    width: auto; /* Оставляем ширину по умолчанию */
+    margin-bottom: 15px; /* Расстояние между чекбоксом и текстом */
+}

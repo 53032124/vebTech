@@ -1,0 +1,113 @@
+/* Общие стили */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Стили для раздела "hero" */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('background1.png');
+    background-size: cover;
+    color: #fff;
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+/* Стили для раздела "content" */
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-info p, .copyright p {
+    margin: 0;
+}
+/* Стили для раздела "content" */
+.content {
+    text-align: center; /* Центрируем текст внутри раздела */
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #333;
+}
+
+table {
+    width: 80%; /* Ширина таблицы на 80% от родительского контейнера */
+    margin: 0 cen; /* Автоматическое центрирование по горизонтали */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Дополнительные стили для улучшения внешнего вида */

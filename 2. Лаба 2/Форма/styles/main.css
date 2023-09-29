@@ -1,0 +1,94 @@
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background1.png');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Стили для контейнера формы */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Стили для формы */
+form {
+    text-align: left;
+}
+
+/* Стили для группы элементов формы */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Стили для заголовка формы */
+h2 {
+    margin-top: 0;
+}
+
+/* Стили для меток полей ввода */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Стили для полей ввода, текстовой области и выпадающего списка */
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Стили для полей ввода при фокусе */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #cf1010;
+}
+
+/* Стили для кнопки отправки */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 100%; 
+}
+
+/* Стили для кнопки отправки при наведении */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для чекбокса "Даю согласие на обработку персональных данных" */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    margin-left: 10px;
+    color: #333;
+}
