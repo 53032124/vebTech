@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-3width, initial-scale=1.0">
     <?php
         // Формируем ссылку на файл стилей динамически
         $style_file = "main.css";
