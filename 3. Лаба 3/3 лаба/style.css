@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif;
+    color: #222222;
+    text-align: center;
+  }
+
+ footer div p {
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .list li {
+    text-align: left;
+  }
+
+  .list {
+    margin: auto;
+  }
+
+  .tasks {
+    display: flex;
+    justify-content: center;
+  }
+
+  .head{
+    background-color: #b9d6f6;
+  }
+
+  .table {
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .feedback {
+    padding: 10px 0;
+  }
+
+  .login {
+    margin: 50px;
+  }
+
+  .city_list {
+    text-align: left;
+  }
+  
+  .menu {
+    padding: 5px;
+  }
+
+  .main {
+    color: rgba(53, 132, 210, 0.598);
+  }
+
+  footer div{
+    margin: 0;
+    padding-top: 10px;
+    background-color: #b9d6f6;
+  }
+
+

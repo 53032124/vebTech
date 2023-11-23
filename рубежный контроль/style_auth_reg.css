@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #222222;
+    text-align: center;
+    background: url(back1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  }
+
+  .content {
+    margin: 80px;
+  }
+
+ footer div p {
+    padding: 10px 0;
+    margin: 0;
+  }img {
+    text-align: left;
+  }
+
+  .head{
+    background-color: #e6e4c5;
+  }
+
+  footer div{
+    margin: 0;
+    margin-top: 100px;
+    background-color: #e6e4c5;
+  }
+  .add-to-cart {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+.reg_auth {
+    padding: 80px;
+}
+
+

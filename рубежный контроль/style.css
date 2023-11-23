@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Raleway", sans-serif;
+    color: #222222;
+    text-align: center;
+    background: url(back1.jpg); /* Фоновый цвет и фоновый рисунок*/
+  }
+
+  .content {
+    margin: 80px;
+  }
+
+ footer div p {
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: normal;
+  }
+  
+  h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .list li {
+    text-align: left;
+  }
+
+  .list {
+    margin: auto;
+  }
+
+  .tasks {
+    display: flex;
+    justify-content: center;
+  }
+
+  .head{
+    background-color: #e6e4c5;
+  }
+
+  .table {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .table_prod
+  {
+    max-width: 80%;
+    margin: auto;
+    color: rgb(8, 8, 8);
+  }
+  
+  .feedback {
+    padding: 10px 0;
+  }
+
+  .login {
+    margin: 50px;
+  }
+
+  .city_list {
+    text-align: left;
+  }
+  
+  .menu {
+    padding: 5px;
+  }
+
+  .main {
+    color: rgb(210, 53, 58);
+  }
+
+  footer div{
+    margin: 0;
+    margin-top: 70px;
+    background-color: #e6e4c5;
+  }
+  
+
+.iphone13 {
+  color: rgb(0, 0, 0);
+}
+img {
+    text-align: left;
+}
+.iphone14 {
+  color:  rgb(0, 0, 0);
+}
+.iphone10 {
+  color:  rgb(0, 0, 0);
+}
+.add-to-cart {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.realme {
+  color:  rgb(0, 0, 0);
+}
+
+
+

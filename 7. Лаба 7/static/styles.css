@@ -1,0 +1,23 @@
+.calc-container {
+    max-width: 20%;
+}
+
+.screen {
+    background-color: darkred;
+    min-height: 2em;
+    padding: 2em;
+    border-radius: 10% 10% 0 0;
+    color: white;
+}
+
+.buttons {
+    border-radius: 0 0 10% 10%;
+    background-color: darkgrey;
+    padding: 25%;
+    display: flex;
+}
+
+.key {
+    border-radius: 50%;
+    margin: 1%;
+}

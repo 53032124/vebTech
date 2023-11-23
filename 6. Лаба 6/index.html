@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ИсПоЛьЗоВаНиЕ JS</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div>
+    <p>Возведение в степень</p>
+    <label for="number_to_factor">Число для возведения в степень</label>
+    <input type="number" id="number_to_factor">
+    <label for="factor">Степень</label>
+    <input type="number" id="factor">
+    <button id="factor_number" name="factor_number" onclick="power()">Возвести в степень</button>
+    <div id="result_factor_number"></div>
+</div>
+<div>
+    <p>НОД двух неотрицательных чисел</p>
+    <label for="first_number_gcd">Первое число</label>
+    <input type="number" id="first_number_gcd">
+    <label for="second_number_gcd">Второе число</label>
+    <input type="number" id="second_number_gcd">
+    <button id="find_gcd" name="find_gcd" onclick="find_gcd()">Найти НОД</button>
+    <div id="result_find_gcd"></div>
+</div>
+<div>
+    <p>Наименьшая цифра числа</p>
+    <label for="number_find_min">Введите число</label>
+    <input type="number" id="number_find_min">
+    <button id="find_min" name="find_min" onclick="min_number()">Найти цифру</button>
+    <div id="result_find_min"></div>
+</div>
+<div>
+    <p>Плюрализация</p>
+    <label for="number_for_plur">Число для проверки</label>
+    <input type="number" id="number_for_plur">
+    <button id="find_plur" name="find_plur" onclick="plur()">Проверить текст</button>
+    <div id="result_find_plur"></div>
+</div>
+<div>
+    <p>Числа Фибоначчи</p>
+    <label for="number_for_fib">Номер числа Фибоначчи</label>
+    <input type="number" id="number_for_fib">
+    <button id="find_fib" name="find_fib" onclick="fibonacci()">Найти число на введённой позиции</button>
+    <div id="result_find_fib"></div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
