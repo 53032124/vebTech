@@ -47,16 +47,15 @@
     <!-- Навигационное меню -->
     <header>
         <nav>
-            <ul>
-                <!-- Ссылка на табличную вёрстку -->
-                <li>
-                    <a <?php if ($type == 'table') {
-                        echo 'class="selected"';
-                    }?> href="?type=table&table=all">Табличная вёрстка</a></li>
-                <!-- Ссылка на блочную вёрстку -->
-                <li>
-                    <a <?php if ($type == 'block') echo 'class="selected"'?> href="?type=block&table=all">Блочная вёрстка</a></li>
-            </ul>
+        <li>
+    <a <?php if ($type == 'table') {
+        echo 'class="selected"';
+    }?> href="?type=table&table=all" style="text-decoration: none;">Табличная вёрстка</a>
+</li>
+<!-- Ссылка на блочную вёрстку -->
+<li>
+    <a <?php if ($type == 'block') echo 'class="selected"'?> href="?type=block&table=all" style="text-decoration: none;">Блочная вёрстка</a>
+</li>
         </nav>
     </header>
 
