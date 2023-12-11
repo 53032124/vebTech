@@ -160,9 +160,9 @@ body {
 }
 
 #search_box-result {
-    /*position: absolute;*/
-    /*top: 100%;*/
-    /*left: 0;*/
+    position: absolute;
+    /* top: 100%;
+    left: 0; */
     border: 1px solid #ddd;
     background: #fff;
     padding: 10px;

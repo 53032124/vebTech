@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.head{
+    background-color: white;
+  }
+
+.table tr, .table tr td {
+    border: 1px solid black;
+}
+
+p {
+    margin: 0;
+}
+
+.selected {
+    color: white;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif; 
+    color: black;
+    background-color: rgb(179, 179, 179);
+}
+
+.left > li {
+    float: left;
+    list-style: none;
+    padding: 0.5em;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+    background-color: white;
+    position: sticky;
+    padding: 0 0 10px 10px; 
+}
+
+.div-table {
+  display: table;
+  width: 90%;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px; /* cellspacing:poor IE support for  this */
+}
+.row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.col {
+  float: left; /* fix for  buggy browsers */
+  display: table-column;
+  width: 10%;
+  /*background-color: #ccc;*/
+}
+div {
+	margin: 0;
+}

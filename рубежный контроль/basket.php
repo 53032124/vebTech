@@ -22,6 +22,7 @@
       </nav>
     </header>
     <main class = "content">
+  
   <section class="mainpage" id="mainpage">
   <p><h1>
 
